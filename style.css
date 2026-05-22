@@ -1,0 +1,486 @@
+body {
+    font-family: "Segoe UI";
+}
+
+nav {
+    width: 81vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 57px;
+}
+
+nav ul li a img {
+    height: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+}
+
+main {
+    width: 66vw;
+    margin: auto;
+}
+
+.title_child1 {
+    font-size: 47px;
+    display: flex;
+    justify-content: center;
+}
+
+.title_child1 img {
+    height: 31px;
+    align-self: end;
+    padding: 11px 30px;
+}
+
+.title_child1 span {
+    font-weight: 700;
+    padding: 0px 12px;
+}
+
+.title_child2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 33px 0px;
+}
+
+.fa-chevron-down {
+    margin: 5px;
+    font-size: 10px;
+}
+
+.parent {   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.child1 {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    width: 66vw;
+}
+
+.child1 span img {
+    height: 60px;
+}
+
+.parent_span {
+    margin-left: 16px;
+}
+
+.span1 {
+    font-size: 24px;
+}
+
+.span2 {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.box h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.box h4 {
+    margin: 15px;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #222;
+}
+
+.box h5 {
+    font-weight: lighter;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.box h6 {
+    margin: 4px;
+    font-weight: lighter;
+    cursor: pointer;
+    font-size: 8px;
+    word-wrap: break-word;
+}
+
+.box {
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 5px;
+    height: 188px;
+    width: 280px;
+}
+
+.download-btn {    
+    border-radius: 5px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green {
+    background-color: #5cb85c;
+    padding: 7px;
+    width: 119px;
+    font-size: 13px;
+}
+
+.blue {
+    background-color: #00b6d1;
+    font-size: 14px;
+    padding: 14px;
+    width: 268px;
+    margin: -1px auto;
+}
+
+.blue:hover {
+    background-color: #00a9c3;
+    transition: ease-in-out 0.3s;
+}
+
+.download-btn a {
+    text-decoration: none;
+    color: white;   
+    font-weight: bolder;   
+}
+
+.title {
+    margin-top: 83px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unknown {
+    height: 16px;
+    width: 254px;
+    margin: 15px;
+}
+
+.black {   
+    height: auto;  
+    width: 100vw;
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.para {
+    color: white;
+    text-align: center;
+}
+
+.join {
+    width: 416px;
+    margin: 180px 115px 100px 285px;
+}
+
+.para1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    margin: 10px;
+}
+
+.para2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sign_up {
+    height: 270px;
+    width: 350px;
+    background-color: white;
+    margin: 64px 313px 0px 5px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.sign_up form input {
+    width: 262px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #d1d1d1;
+    padding-left: 10px;
+}
+
+.sign_up form button {
+    width: 275px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #00b6d1;
+    border-radius: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sign_up h3 {    
+    color: #00b6d1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 27px;
+}
+
+.sign_up form label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sign_up input {
+    outline: none;
+}
+
+.sign_up form button {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #00b6d1;
+    color: white;
+}
+
+.information {
+    margin-left: 253px;
+    color: white;
+    width: 62vw;
+    margin-bottom: 60px;
+}
+
+.information h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 15px 0px;
+}
+
+.para3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 15px 0px;
+}
+
+.para3 span {
+    color: #00b6d1
+}
+
+footer {
+    display: flex;
+    width: 77vw;
+    margin: 70px auto;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.subscribe p {
+    font-size: 14px;
+}
+
+.subscribe input {
+    height: 40px;
+    width: 185px;
+    margin: 10px 0px;
+    padding-left: 15px;
+    border: 1px solid #d1d1d1;
+    border-radius: 7px;
+}
+
+.subscribe button {
+    height: 40px;
+    width: 203px;
+    text-align: center;
+    background-color: #00b6d1;
+    border: 1px solid #00b6d1;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #09a6bd;
+}
+
+.subscribe input:focus {
+    box-shadow: 0 0 0 4px #00b6d140;
+    outline: none;
+}
+
+.subscribe {
+    width: 191px;
+}
+
+.div1 {
+    width: 171px;
+    margin-right: 15px;
+}
+
+.div2 {
+    width: 190px;
+}
+
+.div2 ul li {
+    padding-bottom: 5px;
+}
+
+.div3 {
+    width: 202px;
+}
+
+.div4 {
+    width: 186px;
+}
+
+.last img {
+    height: 57px;
+}
+
+.last {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.div5 {
+    margin-left: 51%;
+}
+
+.fag {
+    margin-left: 10px;
+}
+
+.fag:hover {
+    color: #454545;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.copyright {
+    width: 85%;
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+.arrow {
+    height: 65px;
+    width: 65px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #00b6d1;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+}
+
+.arrow:hover {
+    background-color: #09a6bd;
+    cursor: pointer;
+}
+
+.fa-long-arrow-up {
+    filter: invert(1);    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav,
+    nav ul {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .title_child1 {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .black {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        height: auto;
+        width: 100vw;   
+        min-width: 1200px;
+        background-color: #222;
+    }
+
+    .parent {
+        flex-direction: column;
+    }
+
+    header,
+    main,
+    footer {
+        margin-left: calc(50%);     
+        max-width: 3000px; 
+        width: 100%;
+        padding: 0 20px; 
+        text-align: center; 
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1484px) {
+    .sign_up { 
+        margin-left: calc(50%);
+        text-align: center; 
+    }
+}
